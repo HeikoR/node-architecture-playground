@@ -1,0 +1,22 @@
+{
+  "name": "node-architecture-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "perf1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HeikoR/node-architecture-playground.git"
+  },
+  "author": "HWRisser",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HeikoR/node-architecture-playground/issues"
+  },
+  "homepage": "https://github.com/HeikoR/node-architecture-playground#readme",
+  "devDependencies": {
+    "fast-json-stringify": "^1.2.0"
+  }
+}
