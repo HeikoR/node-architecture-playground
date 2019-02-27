@@ -6,6 +6,8 @@
       "cflags_cc": [ "-std=c++11" ],
       "cflags_cc!": [ "-fno-exceptions" ],
       "sources": [ "hello.cc", 
+        "./cf-crypter.cpp",
+        "./HexUtils.cpp",
         "./cl342/test/certimp.c",
         "./cl342/test/certproc.c",
         "./cl342/test/certs.c",
