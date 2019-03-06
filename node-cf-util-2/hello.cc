@@ -1,3 +1,4 @@
+#include "windows.h"
 #include <napi.h>
 
 // predeclaration of c++ function

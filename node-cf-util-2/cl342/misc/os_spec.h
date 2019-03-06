@@ -18,7 +18,7 @@
    linked runtime, _DLL isn't defined, which would result in the unsafe LIB
    version being built as a DLL */
 
-/* #define STATIC_LIB */
+//#define STATIC_LIB
 
 /* os_spec.h performs OS and compiler detection that's used by config.h, so
    this file must be applied before config.h */

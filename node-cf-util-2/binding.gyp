@@ -40,7 +40,29 @@
       "-lodbccp32.lib",
       "-luser32.lib",
       "-llegacy_stdio_definitions.lib"],
-      'defines': [ 'NAPI_DISABLE_CPP_EXCEPTIONS' ],
+      'defines': [ 'NAPI_DISABLE_CPP_EXCEPTIONS','STATIC_LIB' ],
+      "configurations": {
+        "release": {
+          "msvs_settings": {
+            "VCCLCompilerTool": {      
+              "RuntimeLibrary": 2, # multi threaded DLL
+            }
+          }
+        },
+      },
+      'msvs_settings_IGNORE':{
+        "VCCLCompilerTool": {
+          'WholeProgramOptimization':'false'
+        },
+        "VCLibrarianTool": {
+          'AdditionalOptions':[
+            '/LTCG:OFF'
+          ]
+        },
+        "VCLinkerTool": {
+          'LinkIncremental':1
+        },
+      }
     }
   ]
 }

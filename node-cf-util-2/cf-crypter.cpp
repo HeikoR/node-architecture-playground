@@ -6,6 +6,7 @@
 
 extern "C"
 {
+//#define STATIC_LIB 1
 #include "Cryptlib.h"
 }
 // #include "stdafx.h"
